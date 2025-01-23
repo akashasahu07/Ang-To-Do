@@ -14,6 +14,7 @@ export class AppComponent {
 
   task_text: string = '';
   tasks: { text: string; completed: boolean }[] = [];
+  completedTasks: { text: string; completed: boolean }[] = [];
 
   addTask() {
     if (!this.task_text.trim()) {
@@ -24,18 +25,25 @@ export class AppComponent {
     this.tasks.push({ text: this.task_text.trim(), completed: false });
     this.task_text = ''; // Clear the input after adding the task
     
-    // Focus back on the input box
-    const inputElement = document.getElementById('input-box') as HTMLInputElement;
-    if (inputElement) {
-      inputElement.focus();
-    }
+    document.getElementById('input-box')?.focus(); // Set focus back to the input box
   }
 
   toggleTaskCompletion(index: number) {
-    this.tasks[index].completed = !this.tasks[index].completed;
+    const task = this.tasks[index];
+    task.completed = !task.completed;
+
+    if (task.completed) {
+      // Move task to completedTasks array
+      this.completedTasks.push(task);
+      this.tasks.splice(index, 1); // Remove from main tasks list
+    }
   }
 
   deleteTask(index: number) {
     this.tasks.splice(index, 1); // Remove the task at the specified index
+  }
+
+  deleteCompletedTask(index: number) {
+    this.completedTasks.splice(index, 1); // Remove task from completed tasks list
   }
 }
