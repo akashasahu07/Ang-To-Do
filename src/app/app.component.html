@@ -5,7 +5,7 @@
     </div>
 
     <div class="row">
-        <input type="text" placeholder="Enter Your Task Here..." [(ngModel)]="task_text" autofocus>
+        <input type="text" id="input-box" placeholder="Enter Your Task Here..." [(ngModel)]="task_text" autofocus>
         <button (click)="addTask()">Add Task</button>
     </div>
 
@@ -16,7 +16,7 @@
                 <img *ngIf="task.completed" src="checked.png" alt="Completed" class="check-icon" />
                 <img src="unchecked.png" alt="Unchecked" class="uncheck-icon">
                 <span [class.completed]="task.completed">{{ task.text }}</span>
-                <img src="delete.gif" alt="Delete" class="delete-icon" (click)="deleteTask(i)" />
+                <img src="delete.gif" alt="Delete" class="delete-icon" (click)="deleteTask(i); $event.stopPropagation()" />
             </li>
         </ul>
     </div>
@@ -26,4 +26,3 @@
     </div>
 
 </div> 
-<!-- Time  42 min 21 january-->

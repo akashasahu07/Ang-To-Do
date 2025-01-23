@@ -23,6 +23,12 @@ export class AppComponent {
 
     this.tasks.push({ text: this.task_text.trim(), completed: false });
     this.task_text = ''; // Clear the input after adding the task
+    
+    // Focus back on the input box
+    const inputElement = document.getElementById('input-box') as HTMLInputElement;
+    if (inputElement) {
+      inputElement.focus();
+    }
   }
 
   toggleTaskCompletion(index: number) {
