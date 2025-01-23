@@ -107,16 +107,16 @@ button:hover {
         margin: 10% auto;
     }
 
-    .text {
-        width: 70vw;
-    }
-
     input {
         width: 200px;
     }
 }
 
 @media (max-width: 380px) {
+    .text {
+        width: 70vw;
+    }
+
     input {
         width: 50vw;
     }
