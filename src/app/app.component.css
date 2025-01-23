@@ -98,3 +98,14 @@ button:hover {
     background-color: #007b04;
     scale: 1.01;
 }
+
+@media (max-width: 768px) {
+    .container {
+        width: 80vw;
+        margin: 10% auto;
+    }
+
+    .text {
+        width: 70vw;
+    }
+}
