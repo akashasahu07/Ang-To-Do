@@ -101,18 +101,12 @@ button:hover {
     scale: 1.01;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 460px) {
     .container {
         width: 80vw;
         margin: 10% auto;
     }
 
-    input {
-        width: 200px;
-    }
-}
-
-@media (max-width: 380px) {
     .text {
         width: 70vw;
     }
