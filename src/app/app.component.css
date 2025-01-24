@@ -38,6 +38,7 @@
     width: 270px;
     line-height: 1.5rem;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 ul li {
@@ -78,13 +79,11 @@ ul li:hover {
 
 .completed {
     text-decoration: line-through;
-    color: gray;
-    
+    color: gray;   
 }
 
 .complete h3 {
     background-color: #f1eaa1;
-    margin-top: 20px;
     border-radius: 10px;
     text-decoration: underline;
     text-align: center;

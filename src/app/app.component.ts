@@ -32,18 +32,24 @@ export class AppComponent {
     const task = this.tasks[index];
     task.completed = !task.completed;
 
-    if (task.completed) {
-      // Move task to completedTasks array
-      this.completedTasks.push(task);
-      this.tasks.splice(index, 1); // Remove from main tasks list
-    }
+    // Add a delay before moving the task to the completed list
+    setTimeout(() => {
+      this.completedTasks.push(task); // Move to the completedTasks array
+      this.tasks.splice(index, 1); // Remove from the tasks array
+    }, 300); // Delay of 1 second (1000ms)
   }
 
-  deleteTask(index: number) {
+  deleteTask(index: any) {
+    const audio = new Audio('dlt.mp3') //This is for playing audio
+    audio.play()
+
     this.tasks.splice(index, 1); // Remove the task at the specified index
   }
 
   deleteCompletedTask(index: number) {
+    const audio = new Audio('dlt.mp3') //This is for playing audio
+    audio.play()
+    
     this.completedTasks.splice(index, 1); // Remove task from completed tasks list
   }
 }
