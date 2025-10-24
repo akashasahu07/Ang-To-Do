@@ -46,7 +46,7 @@ This To-Do App is a modern, user-friendly task management application that allow
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/todo-app.git
+git clone https://github.com/akashasahu07/Ang-To-Do
 ```
 
 2. Navigate to the project directory
@@ -110,13 +110,13 @@ This project is open source and available under the [MIT License](LICENSE).
 **Your Name**
 
 <p align="left">
-  <a href="https://www.linkedin.com/in/yourprofile" target="_blank">
+  <a href="https://www.linkedin.com/in/akashasahu07" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="https://github.com/yourusername" target="_blank">
+  <a href="https://github.com/akashasahu07" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
-  <a href="https://www.instagram.com/yourprofile" target="_blank">
+  <a href="https://www.instagram.com/flashcode07" target="_blank">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
   </a>
 </p>
