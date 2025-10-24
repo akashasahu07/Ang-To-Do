@@ -23,6 +23,13 @@ This To-Do App is a modern, user-friendly task management application that allow
 
 ## 🛠️ Technologies Used
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" alt="Angular" />
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+</p>
+
 - **Angular** - Frontend framework
 - **TypeScript** - Programming language for logic
 - **HTML5** - Markup structure
@@ -102,9 +109,17 @@ This project is open source and available under the [MIT License](LICENSE).
 
 **Your Name**
 
-- 💼 LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/yourprofile)
-- 🐱 GitHub: [Your GitHub Profile](https://github.com/yourusername)
-- 📷 Instagram: [Your Instagram Profile](https://www.instagram.com/yourprofile)
+<p align="left">
+  <a href="https://www.linkedin.com/in/yourprofile" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://github.com/yourusername" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+  <a href="https://www.instagram.com/yourprofile" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+  </a>
+</p>
 
 ## 🙏 Acknowledgments
 
@@ -114,4 +129,6 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-⭐ If you found this project helpful, please consider giving it a star!
+<p align="center">
+  ⭐ If you found this project helpful, please consider giving it a star!
+</p>
