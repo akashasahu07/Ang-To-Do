@@ -1,59 +1,117 @@
-# ToDo
+# To-Do App 📝
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.6.
+A simple and intuitive task management application built with Angular that helps you plan your tasks and achieve maximum productivity.
 
-## Development server
+![To-Do App Interface](screenshot.png)
 
-To start a local development server, run:
+## 📋 Description
 
+This To-Do App is a modern, user-friendly task management application that allows users to:
+- Add new tasks easily
+- Mark tasks as completed
+- View completed tasks in a separate section
+- Delete tasks when no longer needed
+
+## 🚀 Features
+
+- ✅ Add tasks with a simple input field
+- ✅ Mark tasks as complete/incomplete
+- ✅ Separate section for completed tasks
+- ✅ Delete tasks functionality
+- ✅ Clean and intuitive user interface
+- ✅ Responsive design
+
+## 🛠️ Technologies Used
+
+- **Angular** - Frontend framework
+- **TypeScript** - Programming language for logic
+- **HTML5** - Markup structure
+- **CSS3** - Styling and layout
+
+## 📸 Screenshots
+
+### Main Interface
+![To-Do App Interface](screenshot.png)
+
+*Add your screenshot image as `screenshot.png` in the root directory*
+
+## 🔧 Installation
+
+1. Clone the repository
+```bash
+git clone https://github.com/yourusername/todo-app.git
+```
+
+2. Navigate to the project directory
+```bash
+cd todo-app
+```
+
+3. Install dependencies
+```bash
+npm install
+```
+
+4. Run the application
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
+5. Open your browser and visit
+```
+http://localhost:4200
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## 💻 Usage
 
-```bash
-ng generate --help
+1. **Add a Task**: Enter your task in the input field and click "Add Task" button
+2. **Complete a Task**: Click on the task to mark it as completed
+3. **View Completed Tasks**: Scroll down to the "Completed Tasks" section to see all finished tasks
+4. **Delete a Task**: Click the delete button to remove a task from the list
+
+## 📁 Project Structure
+```
+todo-app/
+├── src/
+│   ├── app/
+│   │   ├── components/
+│   │   ├── services/
+│   │   └── models/
+│   ├── assets/
+│   ├── styles.css
+│   └── index.html
+├── package.json
+└── README.md
 ```
 
-## Building
+## 🤝 Contributing
 
-To build the project run:
+Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
 
-```bash
-ng build
-```
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+## 📝 License
 
-## Running unit tests
+This project is open source and available under the [MIT License](LICENSE).
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+## 👨‍💻 Author
 
-```bash
-ng test
-```
+**Your Name**
 
-## Running end-to-end tests
+- 💼 LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/yourprofile)
+- 🐱 GitHub: [Your GitHub Profile](https://github.com/yourusername)
+- 📷 Instagram: [Your Instagram Profile](https://www.instagram.com/yourprofile)
 
-For end-to-end (e2e) testing, run:
+## 🙏 Acknowledgments
 
-```bash
-ng e2e
-```
+- Thanks to all contributors who have helped with this project
+- Inspired by modern productivity applications
+- Built with ❤️ using Angular
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+---
 
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+⭐ If you found this project helpful, please consider giving it a star!
